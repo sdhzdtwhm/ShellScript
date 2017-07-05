@@ -1,0 +1,1 @@
+0 1 * * 0 bash +x /mvtech/backup/script/fullBackup.sh >> /mvtech/backup/log/fullBackup.log 2>&1 
