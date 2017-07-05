@@ -1,5 +1,6 @@
 #!/bin/bash
 #The Script is use install zabbix-agentd
+#The The Author is by YangHang
 
 #获取本机ip地址定义成变量
 ip=`/sbin/ifconfig eth0 | grep "inet addr" | awk -F'[ :]+' '{print $4}'`
